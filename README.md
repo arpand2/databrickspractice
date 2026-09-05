@@ -40,14 +40,11 @@ Every day, order data arrives as CSV files. The data engineering team needs to:
 order_id,customer_id,order_date,shipping_city,payment_method,order_status,order_amount
 1001,C101,2026-08-10,Ahmedabad,UPI,PLACED,850
 1002,C102,2026-08-10,Mumbai,CARD,SHIPPED,1200
-
-
-## Technologies Used
-
-- **Databricks** 
-- **Delta Lake**
-- **Spark SQL**
-- **Delta Lake features**: Time Travel, OPTIMIZE, VACUUM, MERGE, History, etc.
-
 ...
 
+Technologies Used
+
+Databricks
+Delta Lake
+Spark SQL
+Delta Lake features: Time Travel, OPTIMIZE, VACUUM, MERGE, History, etc.
