@@ -1,4 +1,3 @@
-# databricks-sql-delta-practice
 # Databricks Delta Lake Practice – QuickCart Orders
 
 This repository contains a hands-on Databricks notebook that demonstrates core **Delta Lake** operations using a realistic e-commerce scenario (QuickCart).
@@ -40,3 +39,10 @@ order_id,customer_id,order_date,shipping_city,payment_method,order_status,order_
 1001,C101,2026-08-10,Ahmedabad,UPI,PLACED,850
 1002,C102,2026-08-10,Mumbai,CARD,SHIPPED,1200
 ...
+
+## Technologies Used
+
+- **Databricks** 
+- **Delta Lake**
+- **Spark SQL**
+- **Delta Lake features**: Time Travel, OPTIMIZE, VACUUM, MERGE, History, etc.
