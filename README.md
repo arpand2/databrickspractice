@@ -32,13 +32,15 @@ Every day, order data arrives as CSV files. The data engineering team needs to:
 | 15   | MERGE INTO                     | Upsert (update + insert) records                 |
 | 16   | SQL UDF                        | Create a user-defined function for order category|
 
+
+
 ## Sample Data (orders.csv)
 
 ```csv
 order_id,customer_id,order_date,shipping_city,payment_method,order_status,order_amount
 1001,C101,2026-08-10,Ahmedabad,UPI,PLACED,850
 1002,C102,2026-08-10,Mumbai,CARD,SHIPPED,1200
-...
+
 
 ## Technologies Used
 
@@ -46,3 +48,6 @@ order_id,customer_id,order_date,shipping_city,payment_method,order_status,order_
 - **Delta Lake**
 - **Spark SQL**
 - **Delta Lake features**: Time Travel, OPTIMIZE, VACUUM, MERGE, History, etc.
+
+...
+
